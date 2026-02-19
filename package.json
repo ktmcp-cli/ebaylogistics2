@@ -1,0 +1,31 @@
+{
+  "name": "@ktmcp-cli/ebaylogistics2",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for eBay Logistics",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "ebay-logistics": "bin/ebay-logistics.js"
+  },
+  "keywords": ["ebaylogistics2", "cli", "api", "ktmcp"],
+  "author": "KTMCP",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "conf": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktmcp-cli/ebaylogistics2.git"
+  },
+  "homepage": "https://killthemcp.com/ebaylogistics2-cli",
+  "bugs": {
+    "url": "https://github.com/ktmcp-cli/ebaylogistics2/issues"
+  }
+}
